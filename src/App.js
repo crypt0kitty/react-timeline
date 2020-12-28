@@ -9,11 +9,12 @@ function App() {
 
   // Customize the code below
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="App-title">Application title</h1>
+    <div className='App'>
+      <header className='App-header'>
+        <h1 className='App-title'>Social media feed</h1>
       </header>
-      <main className="App-main">
+      <main className='App-main'>
+      <Timeline events={timelineData.events}/>
       </main>
     </div>
   );
